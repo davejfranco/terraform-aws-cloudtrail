@@ -1,6 +1,6 @@
 # terraform-aws-cloudtrail
 
-This module will a trail on cloudtrail with encryption in organization mode
+This module will create a trail on cloudtrail with encryption enabled in organization mode
 
 
 ## How to use the module
@@ -62,7 +62,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="trail_id"></a> [#trail\_id](trail\_id) | CloudTrail ID
+| <a name="trail_id"></a> [trail\_id](trail\_id) | CloudTrail ID
 | <a name="kms_key_alias"></a> [kms\_key\_alias](#kms\_key\_alias) | Alias of the KMS key |
 | <a name="cloud_watch_logs_group_name"></a> [cloud\_watch\_logs\_group\_name](#cloud\_watch\_logs\_group\_name) | Name of the cloudwatch log group |
 
